@@ -9,3 +9,8 @@ projects:
         origin: 'https://github.com/ryanzhang/todo-demo-app.git'
       checkoutFrom:
         revision: master
+      auth:
+        type: kubernetes.io/basic-auth
+        secretName: github-pat-todo-app
+        usernameKey: username
+        passwordKey: password
