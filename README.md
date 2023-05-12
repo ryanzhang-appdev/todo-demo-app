@@ -2,7 +2,7 @@
 
 [![Contribute](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.cluster-rv7bn.rv7bn.sandbox103.opentlc.com/workspace17dd6c7ddcb643c9/universal-developer-image/3100/)
 
-Try to write from devspace
+Try the PR process
 
 This is an example application based on a Todo list where the different tasks are created, read, updated, or deleted from the database. Default this application for convenience purposes uses an in-memory database called H2 that allows you to run this application without depending on an external database being available. However, the H2 database is not supported to run in native mode, so before you do the native compilation, you will have to switch to the `postgresql`  branch. 
 
