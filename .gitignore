@@ -27,3 +27,5 @@ ObjectStore
 *.ipr
 *.iws
 .idea
+
+.odo
