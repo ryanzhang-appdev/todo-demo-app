@@ -33,7 +33,7 @@ public class PrimeNumberChecker {
                     return "2 是质数";
         }
         if (number % 2 == 0) {
-            return number + " 不是质数, 能够被2整除.";
+            return number + " 不是质数, 它能够被2整除.";
         }
         for (int i = 3; i < Math.floor(Math.sqrt(number)) + 1; i = i + 2) {
             if (number % i == 0) {
