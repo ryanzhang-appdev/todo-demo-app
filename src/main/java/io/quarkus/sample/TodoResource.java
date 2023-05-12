@@ -83,7 +83,7 @@ public class TodoResource {
     @DELETE
     @Transactional
     @Path("/{id}")
-    @Operation(description = "Delete a specific todo")
+    @Operation(description = "Delete a specific todo task")
     public Response deleteOne(@PathParam("id") Long id) {
         Todo entity = Todo.findById(id);
         if (entity == null) {

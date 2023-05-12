@@ -1,0 +1,12 @@
+schemaVersion: 2.2.0
+metadata:
+  name: todo-demo-app-dev-environment
+  version: 1.0.0
+projects:
+  - name: todo-demo-app
+    git:
+      remotes:
+        origin: 'https://github.com/ryanzhang/todo-demo-app.git'
+      checkoutFrom:
+        revision: master
+
